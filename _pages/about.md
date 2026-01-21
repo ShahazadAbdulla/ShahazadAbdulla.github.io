@@ -25,6 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 Hello! I'm a passionate Robotics and Automation Engineering student specializing in autonomous systems, perception, and control.
 
 My work focuses on the intersection of hardware and software, from architecting real-time communication pipelines with **CAN bus** to developing high-fidelity simulations and deploying advanced **SLAM algorithms** on embedded hardware like the **NVIDIA Jetson**.

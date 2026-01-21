@@ -12,6 +12,7 @@ category: work
 Architected and implemented a complete **ROS 2 perception pipeline in Gazebo**. The system successfully streams image data from a simulated **TurtleBot3 camera**, processes it through a **YOLOv5** object detection node, and visualizes real-time bounding boxes and class labels in **RViz2**.
 
 Key features include:
-*   Integration of Gazebo simulation environment.
-*   Custom ROS 2 node for YOLOv5 inference.
-*   Real-time visualization and debug tools.
+
+- Integration of Gazebo simulation environment.
+- Custom ROS 2 node for YOLOv5 inference.
+- Real-time visualization and debug tools.
