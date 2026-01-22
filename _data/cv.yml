@@ -71,9 +71,31 @@
         - Engineered and open-sourced a custom MPU6050 sensor library in C++.
         - Acknowledged by Vega Processors for significant contribution to their RISC-V hardware ecosystem.
 
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Introduction to Solid Edge
+      institution: Siemens
+      year: Oct 2024
+      description:
+    - title: Deep Learning Master Class
+      institution: TensorFlow User Group (TFUG)
+      year: Dec 2023
+      description:
+    - title: Introduction to Internet Of Things
+      institution: NPTEL
+      year: May 2025
+      description:
+    - title: Workshop on Self Driving Car
+      institution: SAEINDIA
+      year: Sep 2024
+      description:
+
 - title: Selected Technical Projects
   type: list
   contents:
+    - <b>NeuraHome:</b> AI-powered home automation system enabling control via natural language and hand gestures.
+    - <b>Smart Interactive Mirror:</b> Intelligent mirror using computer vision to analyze user expressions and provide personalized feedback.
     - <b>Autonomous Lane-Keeping Perception System:</b> Developed a ROS 2 perception node using Ultrafast Lane Detection (UFLD) model.
     - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected complete ROS 2 pipeline in Gazebo with TurtleBot3 and YOLOv5.
     - <b>Self-Balancing Robot with Kalman Filter:</b> Engineered control system in C++ on RISC-V board with Kalman filter and PID controller.
@@ -91,6 +113,9 @@
       items:
         - NVIDIA Jetson, Microcontrollers (Arduino, ESP32), Motor Controllers, DACs, IMUs, RADAR
         - CAN bus, MQTT, UDP, I2C, Serial
+    - title: CAD & Manufacturing
+      items:
+        - Solid Edge, Autodesk Fusion 360, EasyEDA, 3D Printing
     - title: Computer Vision & ML
       items:
         - OpenCV, PyTorch, TensorFlow/Keras, YOLO (v5/v8), OCR (EasyOCR), Data Augmentation, Camera Calibration, cv_bridge
@@ -102,5 +127,5 @@
   type: list
   contents:
     - <b>BAJA SAEINDIA National Competition (2025):</b> Secured All India Rank 7 as Lead Autonomous Systems Integration Engineer.
-    - <b>Aspire Leaders Program (2025):</b> Selected from over 26,000 global applicants.
+    - <b>Aspire Leaders Program (2025):</b> Selected from over 26,000 global applicants for this rigorous leadership development program.
     - <b>University Leadership:</b> Vice Chairman, The Robotics Society Saintgits Chapter; Co-Lead, TinkerHub Saintgits.

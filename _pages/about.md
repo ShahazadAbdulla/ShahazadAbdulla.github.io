@@ -30,6 +30,6 @@ Hello! I'm a passionate Robotics and Automation Engineering student specializing
 
 My work focuses on the intersection of hardware and software, from architecting real-time communication pipelines with **CAN bus** to developing high-fidelity simulations and deploying advanced **SLAM algorithms** on embedded hardware like the **NVIDIA Jetson**.
 
-I thrive on research-driven development, as demonstrated during my internship at **CSIR-NAL**, where I designed a sensor fusion system that reduced UGV trajectory error by over **90%**. I am also an active contributor to the open-source community, particularly within the **ROS 2 ecosystem** where I contribute to core packages like `ros2_control`.
+I thrive on research-driven development, as demonstrated during my internship at **CSIR-NAL**, where I designed a sensor fusion system that reduced UGV trajectory error by over **90%**. At **Intel**, I engineered an AI-driven quality control pipeline achieving **100% precision**. I am also an active open-source contributor, recognized as a **Top 3 global contributor** to a major ROS 2 release testing, and I actively maintain packages like `ros2_control`.
 
 Feel free to explore my projects or get in touch!
