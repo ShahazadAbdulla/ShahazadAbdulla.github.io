@@ -414,6 +414,16 @@ ninja.data = [{
           description: "C++ control system on RISC-V with Kalman Filter &amp; PID.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_self_balancing_robot/";
+            },},{id: "projects-neurahome",
+          title: 'NeuraHome',
+          description: "AI-powered home automation via natural language and gestures.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_neurahome/";
+            },},{id: "projects-smart-interactive-mirror",
+          title: 'Smart Interactive Mirror',
+          description: "Intelligent mirror with computer vision for personalized feedback.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_smart_mirror/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -427,13 +437,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/ShahazadAbdulla", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
