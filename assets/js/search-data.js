@@ -52,7 +52,10 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-released-mpu6050aries-an-open-source-arduino-library-for-the-aries-v3-board-recognized-by-vega-processors-for-enhancing-their-risc-v-ecosystem",
+      },{id: "news-ranked-3rd-globally-in-the-ros-2-kilted-kaiju-tutorial-party-by-validating-and-closing-over-51-critical-issues-receiving-official-acknowledgment-from-open-robotics",
+          title: 'Ranked 3rd globally in the ROS 2 Kilted Kaiju “Tutorial Party” by validating...',
+          description: "",
+          section: "News",},{id: "news-released-mpu6050aries-an-open-source-arduino-library-for-the-aries-v3-board-recognized-by-vega-processors-for-enhancing-their-risc-v-ecosystem",
           title: 'Released MPU6050Aries, an open-source Arduino library for the Aries v3 board, recognized by...',
           description: "",
           section: "News",},{id: "news-completed-the-aspire-leaders-program-2025-selected-from-over-26-000-global-applicants-this-competitive-leadership-program-is-developed-by-the-aspire-institute-with-harvard-business-school-faculty",
@@ -61,67 +64,44 @@ ninja.data = [{
           section: "News",},{id: "news-secured-all-india-rank-7-at-the-baja-saeindia-2025-national-competition-as-the-lead-autonomous-systems-integration-engineer-for-team-equinox",
           title: 'Secured All India Rank 7 at the BAJA SAEINDIA 2025 National Competition as...',
           description: "",
-          section: "News",},{id: "news-ranked-3rd-globally-in-the-ros-2-kilted-kaiju-tutorial-party-by-validating-and-closing-over-51-critical-issues-receiving-official-acknowledgment-from-open-robotics",
-          title: 'Ranked 3rd globally in the ROS 2 Kilted Kaiju “Tutorial Party” by validating...',
-          description: "",
           section: "News",},{id: "news-presented-a-paper-titled-automating-the-visual-inspection-of-aircraft-structures-using-2d-and-3d-computer-vision-machine-learning-and-robotics-at-the-14th-aerospace-and-related-mechanisms-symposium-arms-2025-organized-by-u-r-rao-satellite-centre-ursc-isro",
           title: 'Presented a paper titled “Automating the Visual Inspection of Aircraft Structures Using 2D...',
           description: "",
-          section: "News",},{id: "projects-ros-2-pub-sub-launch-system",
-          title: 'ROS 2 Pub-Sub Launch System',
-          description: "Foundational ROS 2 package for publisher-subscriber architecture.",
+          section: "News",},{id: "projects-project-orion-multi-sensor-slam-ugv",
+          title: 'Project Orion - Multi-Sensor SLAM UGV',
+          description: "Architected a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV at CSIR-NAL.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/10_ros2_pub_sub/";
-            },},{id: "projects-real-time-phone-object-detection",
-          title: 'Real-Time Phone Object Detection',
-          description: "End-to-end ROS 2 pipeline using phone camera and YOLOv5.",
+              window.location.href = "/projects/1_project_orion/";
+            },},{id: "projects-team-equinox-autonomous-atv",
+          title: 'Team Equinox - Autonomous ATV',
+          description: "Lead Autonomous Systems Integration Engineer for BAJA SAEINDIA 2025 (AIR 7).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/11_phone_object_detection/";
-            },},{id: "projects-autonomous-lane-keeping-perception-system",
-          title: 'Autonomous Lane-Keeping Perception System',
-          description: "ROS 2 perception node using UFLD for real-time lane detection.",
+              window.location.href = "/projects/2_team_equinox/";
+            },},{id: "projects-intel-qc-automation-system",
+          title: 'Intel QC Automation System',
+          description: "Architected a full-stack, ROS 2-based system for AI-driven quality control validation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_lane_keeping/";
-            },},{id: "projects-end-to-end-object-detection-pipeline",
-          title: 'End-to-End Object Detection Pipeline',
-          description: "Simulation-based ROS 2 pipeline with TurtleBot3 and YOLOv5.",
+              window.location.href = "/projects/3_intel_qc/";
+            },},{id: "projects-taiwan-india-smart-cities-iot",
+          title: 'Taiwan-India Smart Cities IoT',
+          description: "Lead IoT Systems Engineer for a cross-nation federated AI learning platform.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_object_detection/";
-            },},{id: "projects-self-balancing-robot",
-          title: 'Self-Balancing Robot',
-          description: "C++ control system on RISC-V with Kalman Filter &amp; PID.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_self_balancing_robot/";
-            },},{id: "projects-neurahome",
-          title: 'NeuraHome',
-          description: "AI-powered home automation via natural language and gestures.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_neurahome/";
-            },},{id: "projects-smart-interactive-mirror",
-          title: 'Smart Interactive Mirror',
-          description: "Intelligent mirror with computer vision for personalized feedback.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_smart_mirror/";
-            },},{id: "projects-ros-2-tom-amp-jerry-chase",
-          title: 'ROS 2 Tom &amp;amp; Jerry Chase',
-          description: "A multi-turtle simulation in ROS 2 using TurtleSim.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_tom_and_jerry/";
+              window.location.href = "/projects/4_taiwan_india/";
             },},{id: "projects-mpu6050-library-for-aries",
           title: 'MPU6050 Library for Aries',
           description: "Custom C++ library for MPU6050 on Vega Aries RISC-V board.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_mpu6050_aries/";
-            },},{id: "projects-micro-ros-teleop",
-          title: 'Micro-ROS Teleop',
-          description: "Wireless teleoperation using Micro-ROS and UDP.",
+              window.location.href = "/projects/5_mpu6050_aries/";
+            },},{id: "projects-autonomous-lane-keeping-perception-system",
+          title: 'Autonomous Lane-Keeping Perception System',
+          description: "ROS 2 perception node using UFLD for real-time lane detection.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_micro_ros_teleop/";
+              window.location.href = "/projects/6_lane_keeping/";
             },},{id: "projects-aries-self-balancing-bot",
           title: 'Aries Self-Balancing Bot',
           description: "Self-balancing robot built on the Aries V3 RISC-V board.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_aries_balancing_bot/";
+              window.location.href = "/projects/7_aries_balancing_bot/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -155,7 +135,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=doO9CYsAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
