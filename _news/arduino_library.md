@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Released a new **Arduino Library** designed to streamline sensor integration and control for robotics projects.
+Released **MPU6050Aries**, an open-source Arduino library for the **Aries v3** board, recognized by **Vega Processors** for enhancing their RISC-V ecosystem.

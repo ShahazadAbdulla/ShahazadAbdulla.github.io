@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Contributed to **Gazebo ros_gz** packages by resolving critical bugs and implementing new features, enhancing simulation capabilities for the open-source community.
+Ranked **3rd globally** in the **ROS 2 Kilted Kaiju "Tutorial Party"** by validating and closing over 51 critical issues, receiving official acknowledgment from Open Robotics.
