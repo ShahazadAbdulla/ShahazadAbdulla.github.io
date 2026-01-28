@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-10-01 15:59:00-0400
+date: 2025-11-15 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Ranked **3rd globally** in the **ROS 2 Kilted Kaiju "Tutorial Party"**, recognized by Open Robotics for validating and closing over 51 critical issues.
+Contributed to **Gazebo ros_gz** packages by resolving critical bugs and implementing new features, enhancing simulation capabilities for the open-source community.
