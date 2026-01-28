@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented a paper titled **"Automating the Visual Inspection of Aircraft Structures"** at the **International Conference on Advances in Robotics, Machines and Structures (ARMS 2025)**, organized by CSIR-NAL.
+Presented a paper titled **"Automating the Visual Inspection of Aircraft Structures Using 2D and 3D Computer Vision, Machine Learning, and Robotics"** at the **14th Aerospace and Related Mechanisms Symposium (ARMS 2025)**, organized by U R Rao Satellite Centre (URSC), ISRO.
