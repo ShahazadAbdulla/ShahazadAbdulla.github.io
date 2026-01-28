@@ -52,8 +52,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-presented-a-paper-titled-automating-the-visual-inspection-of-aircraft-structures-at-the-international-conference-on-advances-in-robotics-machines-and-structures-arms-2025-organized-by-csir-nal",
-          title: 'Presented a paper titled “Automating the Visual Inspection of Aircraft Structures” at the...',
+      },{id: "news-presented-a-paper-titled-automating-the-visual-inspection-of-aircraft-structures-using-2d-and-3d-computer-vision-machine-learning-and-robotics-at-the-14th-aerospace-and-related-mechanisms-symposium-arms-2025-organized-by-u-r-rao-satellite-centre-ursc-isro",
+          title: 'Presented a paper titled “Automating the Visual Inspection of Aircraft Structures Using 2D...',
           description: "",
           section: "News",},{id: "news-secured-all-india-rank-7-at-the-baja-saeindia-2025-national-competition-as-the-lead-autonomous-systems-integration-engineer-for-team-equinox",
           title: 'Secured All India Rank 7 at the BAJA SAEINDIA 2025 National Competition as...',
