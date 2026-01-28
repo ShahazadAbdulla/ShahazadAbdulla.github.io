@@ -25,34 +25,34 @@
       institution: Team Equinox (BAJA SAEINDIA)
       year: Mar 2024 – Present
       description:
-        - Spearheaded autonomous systems integration, achieving All India Rank 7 at aBAJA 2025.
-        - Architected distributed, real-time control architecture with NVIDIA Jetson and multiple Arduino R4 Minima nodes over CAN bus.
-        - Engineered safety-critical firmware with PID controllers for precise vehicle control.
+        - Spearheaded the autonomous systems integration, culminating in an All India Rank of 7th at the aBAJA 2025 competition and flawless passes on all technical and autonomous checks on the first attempt.
+        - Architected the vehicle's distributed, real-time control architecture; integrated a high-level NVIDIA Jetson with multiple low-level Arduino R4 Minima nodes over a robust CAN bus network.
+        - Engineered safety-critical firmware, including PID controllers for the throttle, brake, and steering actuators, ensuring precise vehicle control and adherence to competition rules.
 
     - title: Research Intern, Project Orion
       institution: CSIR - National Aerospace Laboratories (NAL)
       year: June 2025 – July 2025
       description:
-        - Architected and validated a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV, reducing trajectory error by over 90%.
-        - Engineered complete perception and control stack on NVIDIA Jetson Orin Nano.
-        - Developed a novel data-driven calibration methodology (SBKC) to solve IMU instability.
-        - Co-authored research paper on automated aircraft structure inspection (ARMS 2025).
+        - Architected and validated a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV, reducing end-of-path trajectory error by over 90% compared to a VIO-only baseline.
+        - Engineered a complete perception and control stack on an NVIDIA Jetson Orin Nano, from low-level C++ driver modification to high-level SLAM implementation in ROS 2.
+        - Solved critical real-world integration challenges, including numerical instability of the IMU and kinematic mismatches, by developing a novel data-driven calibration methodology (SBKC).
+        - Co-authored the research paper, 'AUTOMATING THE VISUAL INSPECTION OF AIRCRAFT STRUCTURES USING 2D AND 3D COMPUTER VISION, MACHINE LEARNING, AND ROBOTICS,' published in the International Conference on Advances in Robotics, Mechanics and Structures (ARMS 2025).
 
     - title: Lead IoT Systems Engineer
       institution: Taiwan-India Smart Cities Project (Saintgits & CCU, Taiwan)
       year: Aug 2025 – Present
       description:
-        - Coordinated development and deployment of prototype IoT sensor nodes for a cross-nation federated AI learning platform.
-        - Engineered embedded software for ESP32 to publish real-time data via MQTT.
-        - Led student team in hardware building, testing, and debugging.
+        - Coordinated the development and deployment of prototype IoT sensor nodes for the world's first cross-nation federated AI learning platform.
+        - Engineered the embedded software for ESP32 microcontrollers to reliably publish real-time environmental data via MQTT to the central data server.
+        - Led a student team in the hands-on building, testing, and debugging of the hardware nodes, ensuring data integrity for the AI backend.
 
     - title: Industrial Trainee - Quality Control Automation
       institution: Intel Corporation (Intel Unnati Program)
       year: May 2025 – July 2025
       description:
-        - Architected full-stack, ROS 2-based system for AI-driven validation with PyBullet digital twin.
-        - Designed multi-stage AI pipeline with OCR, QR code decoding, and custom-trained TensorFlow/Keras model.
-        - Achieved 100% precision on "Bad Label" classification.
+        - Architected a full-stack, ROS 2-based system for AI-driven validation, featuring a PyBullet digital twin, a responsive UI for monitoring, and an SQLite backend for robust data logging.
+        - Designed and implemented a multi-stage AI pipeline featuring OCR (EasyOCR), QR code decoding, and a custom-trained TensorFlow/Keras model for print quality assessment.
+        - Achieved 100% precision on "Bad Label" classification by tuning the ML model's operating threshold, guaranteeing no defective products were passed by the quality check.
 
 - title: Open Source Contributions
   type: time_table
@@ -61,15 +61,14 @@
       institution: The ROS 2 Community
       year: May 2024 – Present
       description:
-        - Ranked 3rd globally in the ROS 2 Kilted Kaiju "Tutorial Party", closing over 51 critical issues.
-        - Actively contributing to the ros2_control framework and core control architecture.
+        - Ranked 3rd globally in the ROS 2 Kilted Kaiju "Tutorial Party" by validating and closing over 51 critical issues, receiving official acknowledgment from Open Robotics.
+        - Actively contribute to the ros2_control framework, addressing issues and improving the core control architecture for the ROS 2 community.
 
     - title: Creator & Maintainer
       institution: MPU6050 Library for Aries Board
       year: Jan 2025 – Mar 2025
       description:
-        - Engineered and open-sourced a custom MPU6050 sensor library in C++.
-        - Acknowledged by Vega Processors for significant contribution to their RISC-V hardware ecosystem.
+        - Engineered and open-sourced a custom MPU6050 sensor library in C++, acknowledged by Vega Processors for a significant contribution to their RISC-V hardware ecosystem.
 
 - title: Certifications
   type: time_table
@@ -94,11 +93,11 @@
 - title: Selected Technical Projects
   type: list
   contents:
+    - <b>Autonomous Lane-Keeping Perception System:</b> Developed a ROS 2 perception node by integrating the Ultrafast Lane Detection (UFLD) model to accurately identify lane boundaries from real-world video feeds.
+    - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected and implemented a complete ROS 2 perception pipeline in Gazebo, successfully streaming data from a simulated TurtleBot3 camera to a YOLOv5 node and visualizing real-time object detections in RViz2.
+    - <b>Self-Balancing Robot with Kalman Filter:</b> Engineered a complete control system in C++ for a physical self-balancing robot on a RISC-V board, implementing a Kalman filter and PID controller for stable state estimation.
     - <b>NeuraHome:</b> AI-powered home automation system enabling control via natural language and hand gestures.
     - <b>Smart Interactive Mirror:</b> Intelligent mirror using computer vision to analyze user expressions and provide personalized feedback.
-    - <b>Autonomous Lane-Keeping Perception System:</b> Developed a ROS 2 perception node using Ultrafast Lane Detection (UFLD) model.
-    - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected complete ROS 2 pipeline in Gazebo with TurtleBot3 and YOLOv5.
-    - <b>Self-Balancing Robot with Kalman Filter:</b> Engineered control system in C++ on RISC-V board with Kalman filter and PID controller.
 
 - title: Skills
   type: nested_list
@@ -126,6 +125,6 @@
 - title: Leadership & Achievements
   type: list
   contents:
-    - <b>BAJA SAEINDIA National Competition (2025):</b> Secured All India Rank 7 as Lead Autonomous Systems Integration Engineer.
-    - <b>Aspire Leaders Program (2025):</b> Selected from over 26,000 global applicants for this rigorous leadership development program.
+    - <b>BAJA SAEINDIA National Competition (2025):</b> Secured All India Rank 7 as the Lead Autonomous Systems Integration Engineer for Team Equinox.
+    - <b>Aspire Leaders Program (2025):</b> Selected from over 26,000 global applicants for a competitive leadership program developed by the Aspire Institute with Harvard Business School faculty.
     - <b>University Leadership:</b> Vice Chairman, The Robotics Society Saintgits Chapter; Co-Lead, TinkerHub Saintgits.
