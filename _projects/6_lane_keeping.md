@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Lane-Keeping Perception System
 description: ROS 2 perception node using UFLD for real-time lane detection.
 img: assets/img/1.jpg
-importance: 1
+importance: 6
 category: work
 ---
 
