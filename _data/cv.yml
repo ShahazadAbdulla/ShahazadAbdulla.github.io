@@ -62,7 +62,7 @@
       year: May 2024 – Present
       description:
         - Ranked 3rd globally in the ROS 2 Kilted Kaiju "Tutorial Party" by validating and closing over 51 critical issues, receiving official acknowledgment from Open Robotics.
-        - Actively contribute to the ros2_control framework, addressing issues and improving the core control architecture for the ROS 2 community.
+        - Actively contribute to the gazebosim ros_gz framework, addressing issues and improving the core control architecture for the ROS 2 community.
 
     - title: Creator & Maintainer
       institution: MPU6050 Library for Aries Board
