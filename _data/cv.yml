@@ -7,6 +7,8 @@
       value: Kottayam, Kerala, India
     - name: Email
       value: shahazad.abdulla.engineer@gmail.com
+    - name: Phone
+      value: +91 7736652034
     - name: Languages
       value: English, Malayalam, Hindi
 
@@ -17,114 +19,134 @@
       institution: Saintgits College of Engineering (Autonomous), Kottayam, Kerala, India
       year: Expected July 2027
       description:
+        - Minor in Embedded Systems and IoT
 
 - title: Experience
   type: time_table
   contents:
-    - title: Vice Captain (2026 Season) & Lead Autonomous Systems Integration Engineer (2025 Season)
+    - title: TEEP Research Intern, Mechanical and Mechatronic Engineering
+      institution: National Taiwan Ocean University (NTOU), Keelung, Taiwan
+      year: Aug 2026 – Present
+      description:
+        - Developing a robotics system integrating NVIDIA Jetson Orin Nano, ROS 2 Jazzy, embedded control hardware, containerized software, and a Gazebo Harmonic digital twin of an Ackermann-steered robot.
+        - Designed a custom KiCad PCB for the STM32F446RE controller, integrated steering control with ROS 2 using Zenbedded and Eclipse Zenoh, and developed Android-to-robot camera, IMU, and GPS streaming over Zenoh.
+
+    - title: Captain and Head of Autonomous Systems
       institution: Team Equinox (BAJA SAEINDIA)
       year: Mar 2024 – Present
       description:
-        - Spearheaded the autonomous systems integration, culminating in an All India Rank of 7th at the aBAJA 2025 competition and flawless passes on all technical and autonomous checks on the first attempt.
-        - Architected the vehicle's distributed, real-time control architecture; integrated a high-level NVIDIA Jetson with multiple low-level Arduino R4 Minima nodes over a robust CAN bus network.
-        - Engineered safety-critical firmware, including PID controllers for the throttle, brake, and steering actuators, ensuring precise vehicle control and adherence to competition rules.
+        - Progressed from Autonomous Systems Integration Engineer to Vice Captain and then Captain of a 40-member team, achieving All India Rank 7 at aBAJA 2025 and All India Rank 11 at aBAJA 2026, while preparing for aBAJA 2027.
+        - Architected a distributed vehicle-control system connecting NVIDIA Jetson and embedded microcontrollers over CAN, integrating lane keeping, adaptive cruise control, emergency braking, path following, and traffic light and sign detection with a focus on system safety and validation.
 
-    - title: Research Intern, Project Orion
-      institution: CSIR - National Aerospace Laboratories (NAL)
-      year: June 2025 – July 2025
+    - title: Independent Robotics Systems Engineer (Freelance)
+      institution: Robotics, Embedded Systems and Edge AI for Startup Clients — India / Remote
+      year: Jan 2025 – Jul 2026
       description:
-        - Architected and validated a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV, reducing end-of-path trajectory error by over 90% compared to a VIO-only baseline.
-        - Engineered a complete perception and control stack on an NVIDIA Jetson Orin Nano, from low-level C++ driver modification to high-level SLAM implementation in ROS 2.
-        - Solved critical real-world integration challenges, including numerical instability of the IMU and kinematic mismatches, by developing a novel data-driven calibration methodology (SBKC).
-        - Co-authored the research paper, 'AUTOMATING THE VISUAL INSPECTION OF AIRCRAFT STRUCTURES USING 2D AND 3D COMPUTER VISION, MACHINE LEARNING, AND ROBOTICS,' published in the International Conference on Advances in Robotics, Mechanics and Structures (ARMS 2025).
+        - Developed robotics systems for startup clients, including AMRs with pick-and-place capabilities, semi-humanoid prototypes, and embedded projects.
+        - Integrated ROS 2 with robot hardware, debugged drivers and sensor-actuator interfaces, and deployed TensorRT-based perception on NVIDIA Jetson.
 
     - title: Lead IoT Systems Engineer
       institution: Taiwan-India Smart Cities Project (Saintgits & CCU, Taiwan)
       year: Aug 2025 – Present
       description:
-        - Coordinated the development and deployment of prototype IoT sensor nodes for the world's first cross-nation federated AI learning platform.
-        - Engineered the embedded software for ESP32 microcontrollers to reliably publish real-time environmental data via MQTT to the central data server.
-        - Led a student team in the hands-on building, testing, and debugging of the hardware nodes, ensuring data integrity for the AI backend.
+        - Led the development, prototyping, testing, and debugging of ESP32-based IoT sensor nodes that acquire environmental data and transmit it to a central server via MQTT, supporting a cross-institutional federated AI platform.
+        - Coordinated deployment of prototype nodes for the world's first cross-nation federated AI learning platform and led a student team through hardware building and debugging, ensuring data integrity for the AI backend.
+
+    - title: Research Intern, Project Orion
+      institution: CSIR - National Aerospace Laboratories (NAL), Bengaluru, India
+      year: June 2025 – July 2025
+      description:
+        - Developed a multi-sensor state-estimation and Visual SLAM pipeline for an autonomous inspection UGV, integrating visual-inertial data with Extended Kalman Filter (EKF)-based sensor fusion.
+        - Developed a data-driven calibration methodology (SBKC) to address IMU noise and kinematic mismatches, reducing end-of-path trajectory error by over 90% compared with a VIO-only baseline.
+        - Integrated low-level C++ drivers with ROS 2 perception and state-estimation components on NVIDIA Jetson Orin Nano; co-authored research on automated aircraft-structure inspection published in the ARMS 2025 proceedings.
 
     - title: Industrial Trainee - Quality Control Automation
       institution: Intel Corporation (Intel Unnati Program)
       year: May 2025 – July 2025
       description:
-        - Architected a full-stack, ROS 2-based system for AI-driven validation, featuring a PyBullet digital twin, a responsive UI for monitoring, and an SQLite backend for robust data logging.
-        - Designed and implemented a multi-stage AI pipeline featuring OCR (EasyOCR), QR code decoding, and a custom-trained TensorFlow/Keras model for print quality assessment.
-        - Achieved 100% precision on "Bad Label" classification by tuning the ML model's operating threshold, guaranteeing no defective products were passed by the quality check.
+        - Developed a ROS 2-based quality inspection system integrating a PyBullet digital twin, monitoring interface, SQLite logging, OCR (EasyOCR), QR-code decoding, and a custom-trained TensorFlow/Keras model for automated product-label inspection.
+        - Achieved 100% precision on "Bad Label" classification by tuning the ML model's operating threshold.
 
 - title: Open Source Contributions
   type: time_table
   contents:
-    - title: ROS 2 Contributor
-      institution: The ROS 2 Community
-      year: May 2024 – Present
+    - title: Core Developer and Organization Member, Zenbedded (ros2_control)
+      institution: Open Robotics / ros-controls
+      year: Mar 2026 – Present
       description:
-        - Ranked 3rd globally in the ROS 2 Kilted Kaiju "Tutorial Party" by validating and closing over 51 critical issues, receiving official acknowledgment from Open Robotics.
-        - Actively contribute to the gazebosim ros_gz framework, addressing issues and improving the core control architecture for the ROS 2 community.
+        - Contributing to an agent-less embedded integration stack connecting Zephyr-based microcontrollers with ros2_control over Eclipse Zenoh, including transport abstractions and joint-state and command communication.
+        - Developed zero-allocation, static-offset CDR serialization and contributed to embedded discovery, CI, and latency benchmarking; investigated a Zenoh-Pico unicast keep-alive teardown race.
 
-    - title: Creator & Maintainer
-      institution: MPU6050 Library for Aries Board
-      year: Jan 2025 – Mar 2025
+    - title: ROS 2 Contributor and Tutorial Party Tester
+      institution: The ROS 2 Community
+      year: May 2025 – May 2026
       description:
-        - Engineered and open-sourced a custom MPU6050 sensor library in C++, acknowledged by Vega Processors for a significant contribution to their RISC-V hardware ecosystem.
+        - Authored merged contributions to control_msgs and ros_gz_bridge, introducing JointCommand.msg, fixing timestamp propagation, and adding configurable frame_id support.
+        - Ranked 3rd globally in 2025 and 4th globally in 2026, closing over 230 issues through ROS 2 release testing and tutorial validation.
+
+    - title: Creator and Maintainer, MPU6050 Library for Aries RISC-V Boards
+      institution: Vega Processors / CDAC
+      year: May 2025
+      description:
+        - Developed an open-source C++ sensor library with Kalman-filtered roll and pitch estimation for MPU6050 sensors on Vega/Aries RISC-V platforms, acknowledged by Vega Processors for contributing to their ecosystem.
 
 - title: Certifications
   type: time_table
   contents:
-    - title: Introduction to Solid Edge
-      institution: Siemens
-      year: Oct 2024
-      description:
-    - title: Deep Learning Master Class
-      institution: TensorFlow User Group (TFUG)
-      year: Dec 2023
-      description:
     - title: Introduction to Internet Of Things
       institution: NPTEL
       year: May 2025
+      description:
+    - title: Introduction to Solid Edge
+      institution: Siemens
+      year: Oct 2024
       description:
     - title: Workshop on Self Driving Car
       institution: SAEINDIA
       year: Sep 2024
       description:
+    - title: Deep Learning Master Class
+      institution: TensorFlow User Group (TFUG)
+      year: Dec 2023
+      description:
 
 - title: Selected Technical Projects
   type: list
   contents:
-    - <b>Autonomous Lane-Keeping Perception System:</b> Developed a ROS 2 perception node by integrating the Ultrafast Lane Detection (UFLD) model to accurately identify lane boundaries from real-world video feeds.
-    - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected and implemented a complete ROS 2 perception pipeline in Gazebo, successfully streaming data from a simulated TurtleBot3 camera to a YOLOv5 node and visualizing real-time object detections in RViz2.
-    - <b>Self-Balancing Robot with Kalman Filter:</b> Engineered a complete control system in C++ for a physical self-balancing robot on a RISC-V board, implementing a Kalman filter and PID controller for stable state estimation.
+    - <b>Quadruped Robotics and Autonomous Navigation:</b> Migrated Hiwonder PuppyPi to ROS 2 Humble with Nav2, SLAM Toolbox, RF2O, and EKF-based sensor fusion; implemented remote teleoperation and resolved servo stiction and driver issues.
+    - <b>Edge AI and Autonomous Perception:</b> Deployed UFLD on NVIDIA Jetson Orin Nano using TensorRT FP16, achieving 19 ms inference latency and reducing GPU utilisation from 60% to 20%.
+    - <b>Self-Balancing Robot and Embedded Control:</b> Implemented a C++ control system on RISC-V combining Kalman-filter-based state estimation with PID control for real-time stabilisation.
+    - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected a complete ROS 2 perception pipeline in Gazebo streaming a simulated TurtleBot3 camera to a YOLOv5 node with real-time visualisation in RViz2.
+    - <b>Project Orion UGV Stack:</b> Open-sourced the complete ROS 2 Humble software stack for the encoder-less Mecanum-wheeled inspection UGV.
     - <b>NeuraHome:</b> AI-powered home automation system enabling control via natural language and hand gestures.
-    - <b>Smart Interactive Mirror:</b> Intelligent mirror using computer vision to analyze user expressions and provide personalized feedback.
+    - <b>Smart Interactive Mirror:</b> Intelligent mirror using computer vision to analyse user expressions and provide personalised feedback.
 
 - title: Skills
   type: nested_list
   contents:
     - title: Programming
       items:
-        - Python, C++, C, MATLAB, Bash
-    - title: Robotics Software
+        - C++, C, Python, Rust, Kotlin, MATLAB, Bash
+    - title: Control Systems & Algorithms
       items:
-        - ROS 2, Gazebo, Isaac Sim, Navigation2, SLAM (RTAB-Map, VSLAM), Sensor Fusion (EKF), Digital Twins (PyBullet), micro-ROS, Control Systems (PID), URDF/SDF/XACRO
-    - title: Hardware & Comms
+        - ROS 2 Control, PID Control, Extended Kalman Filters (EKF), Visual-Inertial SLAM, Sensor Fusion, Path Planning (Nav2), Kinematics
+    - title: Mechatronics & Hardware
       items:
-        - NVIDIA Jetson, Microcontrollers (Arduino, ESP32), Motor Controllers, DACs, IMUs, RADAR
-        - CAN bus, MQTT, UDP, I2C, Serial
-    - title: CAD & Manufacturing
+        - NVIDIA Jetson, Raspberry Pi, STM32, Arduino, ESP32, RISC-V, DACs, IMUs, LiDAR, RADAR, CAN Bus, MQTT, I2C, SPI, UART/Serial
+    - title: Robotics Software & Simulation
       items:
-        - Solid Edge, Autodesk Fusion 360, EasyEDA, 3D Printing
+        - ROS 2, Gazebo, Isaac Sim, PyBullet, CARLA, Nav2, SLAM Toolbox, micro-ROS, URDF/SDF/XACRO, Digital Twins
+    - title: Embedded Systems & Tools
+      items:
+        - Zephyr RTOS, FreeRTOS, PlatformIO, ESP-IDF, Docker, Git/GitHub, KiCad, CMake, colcon, LaTeX
     - title: Computer Vision & ML
       items:
-        - OpenCV, PyTorch, TensorFlow/Keras, YOLO (v5/v8), OCR (EasyOCR), Data Augmentation, Camera Calibration, cv_bridge
-    - title: Tools & Platforms
-      items:
-        - Linux, Git, GitHub, Docker, CMake, colcon, ESP-IDF, LaTeX
+        - OpenCV, PyTorch, TensorFlow/Keras, ONNX, TensorRT, YOLO, UFLD, Transformers, Camera Calibration
 
 - title: Leadership & Achievements
   type: list
   contents:
-    - <b>BAJA SAEINDIA National Competition (2025):</b> Secured All India Rank 7 as the Lead Autonomous Systems Integration Engineer for Team Equinox.
+    - <b>Robotics and Open-Source Leadership:</b> Founder and Lead, SG-Robotics Open Source; Lead, ROS Club Saintgits; Vice Chairman, The Robotics Society Saintgits Chapter; Co-Lead and Hardware Mentor, TinkerHub Saintgits, mentoring 200+ students.
+    - <b>BAJA SAEINDIA National Competitions:</b> All India Rank 7 at aBAJA 2025 and All India Rank 11 at aBAJA 2026 as Captain and Head of Autonomous Systems for Team Equinox.
+    - <b>e-Yantra Robotics Competition 2025–26:</b> Top 100 national qualifier, Holo Battalion (Team eYRC#4075); received a hardware grant.
     - <b>Aspire Leaders Program (2025):</b> Selected from over 26,000 global applicants for a competitive leadership program developed by the Aspire Institute with Harvard Business School faculty.
-    - <b>University Leadership:</b> Vice Chairman, The Robotics Society Saintgits Chapter; Co-Lead, TinkerHub Saintgits.

@@ -3,7 +3,7 @@ layout: page
 title: Taiwan-India Smart Cities IoT
 description: Lead IoT Systems Engineer for a cross-nation federated AI learning platform.
 img: assets/img/4.jpg
-importance: 4
+importance: 7
 category: work
 ---
 

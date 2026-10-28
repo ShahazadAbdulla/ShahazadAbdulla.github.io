@@ -3,7 +3,7 @@ layout: page
 title: Intel QC Automation System
 description: Architected a full-stack, ROS 2-based system for AI-driven quality control validation.
 img: assets/img/11.jpg
-importance: 3
+importance: 6
 category: work
 ---
 
