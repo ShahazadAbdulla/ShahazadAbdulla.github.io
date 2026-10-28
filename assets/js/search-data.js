@@ -30,33 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "news-ranked-3rd-globally-in-the-ros-2-kilted-kaiju-tutorial-party-by-validating-and-closing-over-51-critical-issues-receiving-official-acknowledgment-from-open-robotics",
-          title: 'Ranked 3rd globally in the ROS 2 Kilted Kaiju “Tutorial Party” by validating...',
-          description: "",
-          section: "News",},{id: "news-released-mpu6050aries-an-open-source-arduino-library-for-the-aries-v3-board-recognized-by-vega-processors-for-enhancing-their-risc-v-ecosystem",
+        },{id: "news-released-mpu6050aries-an-open-source-arduino-library-for-the-aries-v3-board-recognized-by-vega-processors-for-enhancing-their-risc-v-ecosystem",
           title: 'Released MPU6050Aries, an open-source Arduino library for the Aries v3 board, recognized by...',
+          description: "",
+          section: "News",},{id: "news-ranked-3rd-globally-in-the-ros-2-kilted-kaiju-tutorial-party-by-validating-and-closing-critical-issues-across-the-release-receiving-official-acknowledgment-from-open-robotics",
+          title: 'Ranked 3rd globally in the ROS 2 Kilted Kaiju “Tutorial Party” by validating...',
           description: "",
           section: "News",},{id: "news-completed-the-aspire-leaders-program-2025-selected-from-over-26-000-global-applicants-this-competitive-leadership-program-is-developed-by-the-aspire-institute-with-harvard-business-school-faculty",
           title: 'Completed the Aspire Leaders Program 2025, selected from over 26,000 global applicants. This...',
@@ -67,14 +45,34 @@ ninja.data = [{
           section: "News",},{id: "news-presented-a-paper-titled-automating-the-visual-inspection-of-aircraft-structures-using-2d-and-3d-computer-vision-machine-learning-and-robotics-at-the-14th-aerospace-and-related-mechanisms-symposium-arms-2025-organized-by-u-r-rao-satellite-centre-ursc-isro",
           title: 'Presented a paper titled “Automating the Visual Inspection of Aircraft Structures Using 2D...',
           description: "",
-          section: "News",},{id: "projects-project-orion-multi-sensor-slam-ugv",
+          section: "News",},{id: "news-qualified-in-the-top-100-nationally-at-the-e-yantra-robotics-competition-2025-26-with-holo-battalion-team-eyrc-4075-and-received-a-hardware-grant",
+          title: 'Qualified in the Top 100 nationally at the e-Yantra Robotics Competition 2025–26 with...',
+          description: "",
+          section: "News",},{id: "news-secured-all-india-rank-11-at-baja-saeindia-2026-as-captain-and-head-of-autonomous-systems-for-team-equinox-following-air-7-in-2025-now-preparing-for-abaja-2027",
+          title: 'Secured All India Rank 11 at BAJA SAEINDIA 2026 as Captain and Head...',
+          description: "",
+          section: "News",},{id: "news-became-a-core-developer-and-organization-member-on-zenbedded-the-agent-less-embedded-stack-connecting-zephyr-based-microcontrollers-with-ros2-control-over-eclipse-zenoh-contributing-zero-allocation-cdr-serialization-embedded-discovery-ci-and-latency-benchmarking",
+          title: 'Became a Core Developer and Organization Member on Zenbedded, the agent-less embedded stack...',
+          description: "",
+          section: "News",},{id: "news-ranked-4th-globally-in-the-ros-2-2026-tutorial-party-release-testing-closing-over-230-issues-cumulatively-across-the-2025-and-2026-ros-2-releases-with-merged-contributions-to-control-msgs-jointcommand-msg-and-ros-gz-bridge-timestamp-propagation-configurable-frame-id",
+          title: 'Ranked 4th globally in the ROS 2 2026 “Tutorial Party” release testing, closing...',
+          description: "",
+          section: "News",},{id: "news-joined-national-taiwan-ocean-university-ntou-keelung-taiwan-as-a-teep-research-intern-in-mechanical-and-mechatronic-engineering-working-on-a-ros-2-jazzy-nvidia-jetson-robotics-system-with-a-custom-stm32-pcb-and-a-gazebo-harmonic-digital-twin",
+          title: 'Joined National Taiwan Ocean University (NTOU), Keelung, Taiwan as a TEEP Research Intern...',
+          description: "",
+          section: "News",},{id: "projects-quadruped-robotics-and-autonomous-navigation",
+          title: 'Quadruped Robotics and Autonomous Navigation',
+          description: "Migrated a Hiwonder PuppyPi quadruped to ROS 2 Humble with Nav2, SLAM Toolbox, and EKF sensor fusion.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_quadruped/";
+            },},{id: "projects-project-orion-multi-sensor-slam-ugv",
           title: 'Project Orion - Multi-Sensor SLAM UGV',
           description: "Architected a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV at CSIR-NAL.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project_orion/";
             },},{id: "projects-team-equinox-autonomous-atv",
           title: 'Team Equinox - Autonomous ATV',
-          description: "Lead Autonomous Systems Integration Engineer for BAJA SAEINDIA 2025 (AIR 7).",
+          description: "Captain and Head of Autonomous Systems for BAJA SAEINDIA (AIR 7 in 2025, AIR 11 in 2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_team_equinox/";
             },},{id: "projects-intel-qc-automation-system",
@@ -102,6 +100,16 @@ ninja.data = [{
           description: "Self-balancing robot built on the Aries V3 RISC-V board.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_aries_balancing_bot/";
+            },},{id: "projects-ntou-ackermann-robot-stack",
+          title: 'NTOU Ackermann Robot Stack',
+          description: "ROS 2 Jazzy + NVIDIA Jetson robotics system with a custom STM32 PCB and a Gazebo Harmonic digital twin.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_ntou_teep/";
+            },},{id: "projects-zenbedded-ros2-control-for-embedded-boards",
+          title: 'Zenbedded - ros2_control for Embedded Boards',
+          description: "Core development on the agent-less stack connecting Zephyr microcontrollers to ros2_control over Eclipse Zenoh.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_zenbedded/";
             },},{
         id: 'social-email',
         title: 'email',
