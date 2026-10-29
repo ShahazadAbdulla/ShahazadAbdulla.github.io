@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: Aries Self-Balancing Bot
 description: Self-balancing robot built on the Aries V3 RISC-V board.
 img: assets/img/9.jpg
 importance: 10
 category: work
---
+---
 
 **Technology Stack:** RISC-V, Aries V3, Control Theory, C++
 

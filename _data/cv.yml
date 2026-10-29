@@ -113,7 +113,7 @@
 - title: Selected Technical Projects
   type: list
   contents:
-    - <b>Quadruped Robotics and Autonomous Navigation:</b> Migrated Hiwonder PuppyPi to ROS 2 Humble with Nav2, SLAM Toolbox, RF2O, and EKF sensor fusion; implemented remote teleoperation and resolved servo stiction and driver issues.
+    - <b>Quadruped Robotics and Autonomous Navigation:</b> Migrated Hiwonder PuppyPi to ROS 2 Humble with Nav2, SLAM Toolbox, RF2O, and EKF-based sensor fusion; implemented remote teleoperation and resolved servo stiction and driver issues.
     - <b>Edge AI and Autonomous Perception:</b> Deployed UFLD on NVIDIA Jetson Orin Nano using TensorRT FP16, achieving 19 ms inference latency and reducing GPU utilisation from 60% to 20%.
     - <b>Self-Balancing Robot and Embedded Control:</b> Implemented a C++ control system on RISC-V combining Kalman-filter-based state estimation with PID control for real-time stabilisation.
     - <b>End-to-End Object Detection Pipeline in Simulation:</b> Architected a complete ROS 2 perception pipeline in Gazebo streaming a simulated TurtleBot3 camera to a YOLOv5 node with real-time visualisation in RViz2.

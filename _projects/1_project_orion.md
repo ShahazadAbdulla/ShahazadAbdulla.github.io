@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: Project Orion - Multi-Sensor SLAM UGV
 description: Architected a multi-sensor EKF-fused SLAM system for an autonomous inspection UGV at CSIR-NAL.
 img: assets/img/12.jpg
 importance: 3
 category: work
---
+---
 
 **Role:** Research Intern
 **Organization:** CSIR - National Aerospace Laboratories (NAL)

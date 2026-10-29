@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: MPU6050 Library for Aries
 description: Custom C++ library for MPU6050 on Vega Aries RISC-V board.
 img: assets/img/7.jpg
 importance: 8
 category: work
---
+---
 
 **Technology Stack:** C++, RISC-V, I2C, Embedded Systems
 

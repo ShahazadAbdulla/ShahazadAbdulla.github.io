@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: Autonomous Lane-Keeping Perception System
 description: ROS 2 perception node using UFLD for real-time lane detection.
 img: assets/img/1.jpg
 importance: 9
 category: work
---
+---
 
 **Technology Stack:** ROS 2, PyTorch, UFLD, OpenCV
 

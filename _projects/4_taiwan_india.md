@@ -1,12 +1,11 @@
 ---
-
 layout: page
 title: Taiwan-India Smart Cities IoT
 description: Lead IoT Systems Engineer for a cross-nation federated AI learning platform.
 img: assets/img/4.jpg
 importance: 7
 category: work
---
+---
 
 **Role:** Lead IoT Systems Engineer
 **Collaboration:** Saintgits & National Chung Cheng University (CCU), Taiwan
@@ -14,4 +13,4 @@ category: work
 
 - **Coordinated** the development and deployment of prototype IoT sensor nodes for the world's first cross-nation federated AI learning platform.
 - **Engineered** embedded software for ESP32 microcontrollers to reliably publish real-time environmental data via MQTT to the central data server.
-- **Led** a student team in the hands-on building, testing, and debugging of the hardware nodes, ensuring data integrity for the AI backend.
+- **Led** a student team in hardware building, testing, and debugging, ensuring data integrity for the AI backend.
